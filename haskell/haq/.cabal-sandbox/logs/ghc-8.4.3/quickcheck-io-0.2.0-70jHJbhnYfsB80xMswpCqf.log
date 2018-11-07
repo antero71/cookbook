@@ -1,0 +1,25 @@
+cabal: Entering directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45050/quickcheck-io-0.2.0'
+Configuring quickcheck-io-0.2.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for quickcheck-io-0.2.0..
+Building library for quickcheck-io-0.2.0..
+[1 of 2] Compiling Paths_quickcheck_io ( dist/dist-sandbox-9929ec81/build/autogen/Paths_quickcheck_io.hs, dist/dist-sandbox-9929ec81/build/Paths_quickcheck_io.o )
+[2 of 2] Compiling Test.QuickCheck.IO ( src/Test/QuickCheck/IO.hs, dist/dist-sandbox-9929ec81/build/Test/QuickCheck/IO.o )
+[1 of 2] Compiling Paths_quickcheck_io ( dist/dist-sandbox-9929ec81/build/autogen/Paths_quickcheck_io.hs, dist/dist-sandbox-9929ec81/build/Paths_quickcheck_io.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 2] Compiling Test.QuickCheck.IO ( src/Test/QuickCheck/IO.hs, dist/dist-sandbox-9929ec81/build/Test/QuickCheck/IO.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for quickcheck-io-0.2.0..
+Running Haddock on library for quickcheck-io-0.2.0..
+Haddock coverage:
+   0% (  0 /  2) in 'Test.QuickCheck.IO'
+  Missing documentation for:
+    Module header
+    propertyIO (src/Test/QuickCheck/IO.hs:17)
+Documentation created:
+dist/dist-sandbox-9929ec81/doc/html/quickcheck-io/index.html
+Installing library in /Users/anterooikkonen/ohjelmointi/cookbook/haskell/haq/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/quickcheck-io-0.2.0-70jHJbhnYfsB80xMswpCqf
+cabal: Leaving directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45050/quickcheck-io-0.2.0'

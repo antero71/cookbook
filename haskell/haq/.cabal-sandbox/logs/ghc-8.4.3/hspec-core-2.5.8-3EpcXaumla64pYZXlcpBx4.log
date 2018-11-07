@@ -1,0 +1,158 @@
+cabal: Entering directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45050/hspec-core-2.5.8'
+Configuring hspec-core-2.5.8...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hspec-core-2.5.8..
+Building library for hspec-core-2.5.8..
+[ 1 of 27] Compiling Control.Concurrent.Async ( vendor/Control/Concurrent/Async.hs, dist/dist-sandbox-9929ec81/build/Control/Concurrent/Async.o )
+[ 2 of 27] Compiling Data.Algorithm.Diff ( vendor/Data/Algorithm/Diff.hs, dist/dist-sandbox-9929ec81/build/Data/Algorithm/Diff.o )
+[ 3 of 27] Compiling Paths_hspec_core ( dist/dist-sandbox-9929ec81/build/autogen/Paths_hspec_core.hs, dist/dist-sandbox-9929ec81/build/Paths_hspec_core.o )
+[ 4 of 27] Compiling Test.Hspec.Core.Clock ( src/Test/Hspec/Core/Clock.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Clock.o )
+[ 5 of 27] Compiling Test.Hspec.Core.Compat ( src/Test/Hspec/Core/Compat.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Compat.o )
+[ 6 of 27] Compiling Test.Hspec.Core.Example.Location ( src/Test/Hspec/Core/Example/Location.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Example/Location.o )
+[ 7 of 27] Compiling Test.Hspec.Core.Formatters.Diff ( src/Test/Hspec/Core/Formatters/Diff.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Formatters/Diff.o )
+[ 8 of 27] Compiling Test.Hspec.Core.Formatters.Free ( src/Test/Hspec/Core/Formatters/Free.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Formatters/Free.o )
+[ 9 of 27] Compiling Test.Hspec.Core.Timer ( src/Test/Hspec/Core/Timer.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Timer.o )
+[10 of 27] Compiling Test.Hspec.Core.Util ( src/Test/Hspec/Core/Util.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Util.o )
+[11 of 27] Compiling Test.Hspec.Core.QuickCheckUtil ( src/Test/Hspec/Core/QuickCheckUtil.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/QuickCheckUtil.o )
+[12 of 27] Compiling Test.Hspec.Core.Example ( src/Test/Hspec/Core/Example.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Example.o )
+[13 of 27] Compiling Test.Hspec.Core.Tree ( src/Test/Hspec/Core/Tree.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Tree.o )
+[14 of 27] Compiling Test.Hspec.Core.Spec.Monad ( src/Test/Hspec/Core/Spec/Monad.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Spec/Monad.o )
+[15 of 27] Compiling Test.Hspec.Core.Hooks ( src/Test/Hspec/Core/Hooks.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Hooks.o )
+[16 of 27] Compiling Test.Hspec.Core.Spec ( src/Test/Hspec/Core/Spec.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Spec.o )
+[17 of 27] Compiling Test.Hspec.Core.QuickCheck ( src/Test/Hspec/Core/QuickCheck.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/QuickCheck.o )
+[18 of 27] Compiling Test.Hspec.Core.Formatters.Monad ( src/Test/Hspec/Core/Formatters/Monad.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Formatters/Monad.o )
+[19 of 27] Compiling Test.Hspec.Core.Formatters ( src/Test/Hspec/Core/Formatters.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Formatters.o )
+[20 of 27] Compiling Test.Hspec.Core.Format ( src/Test/Hspec/Core/Format.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Format.o )
+[21 of 27] Compiling Test.Hspec.Core.Runner.Eval ( src/Test/Hspec/Core/Runner/Eval.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Runner/Eval.o )
+[22 of 27] Compiling Test.Hspec.Core.Formatters.Internal ( src/Test/Hspec/Core/Formatters/Internal.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Formatters/Internal.o )
+[23 of 27] Compiling Test.Hspec.Core.Config.Util ( src/Test/Hspec/Core/Config/Util.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Config/Util.o )
+[24 of 27] Compiling Test.Hspec.Core.Config.Options ( src/Test/Hspec/Core/Config/Options.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Config/Options.o )
+[25 of 27] Compiling Test.Hspec.Core.FailureReport ( src/Test/Hspec/Core/FailureReport.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/FailureReport.o )
+[26 of 27] Compiling Test.Hspec.Core.Config ( src/Test/Hspec/Core/Config.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Config.o )
+[27 of 27] Compiling Test.Hspec.Core.Runner ( src/Test/Hspec/Core/Runner.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Runner.o )
+[ 1 of 27] Compiling Control.Concurrent.Async ( vendor/Control/Concurrent/Async.hs, dist/dist-sandbox-9929ec81/build/Control/Concurrent/Async.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 27] Compiling Data.Algorithm.Diff ( vendor/Data/Algorithm/Diff.hs, dist/dist-sandbox-9929ec81/build/Data/Algorithm/Diff.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 27] Compiling Paths_hspec_core ( dist/dist-sandbox-9929ec81/build/autogen/Paths_hspec_core.hs, dist/dist-sandbox-9929ec81/build/Paths_hspec_core.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 27] Compiling Test.Hspec.Core.Clock ( src/Test/Hspec/Core/Clock.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Clock.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 27] Compiling Test.Hspec.Core.Compat ( src/Test/Hspec/Core/Compat.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 27] Compiling Test.Hspec.Core.Example.Location ( src/Test/Hspec/Core/Example/Location.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Example/Location.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 27] Compiling Test.Hspec.Core.Formatters.Diff ( src/Test/Hspec/Core/Formatters/Diff.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Formatters/Diff.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 27] Compiling Test.Hspec.Core.Formatters.Free ( src/Test/Hspec/Core/Formatters/Free.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Formatters/Free.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 27] Compiling Test.Hspec.Core.Timer ( src/Test/Hspec/Core/Timer.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Timer.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 27] Compiling Test.Hspec.Core.Util ( src/Test/Hspec/Core/Util.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Util.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 27] Compiling Test.Hspec.Core.QuickCheckUtil ( src/Test/Hspec/Core/QuickCheckUtil.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/QuickCheckUtil.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 27] Compiling Test.Hspec.Core.Example ( src/Test/Hspec/Core/Example.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Example.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 27] Compiling Test.Hspec.Core.Tree ( src/Test/Hspec/Core/Tree.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Tree.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 27] Compiling Test.Hspec.Core.Spec.Monad ( src/Test/Hspec/Core/Spec/Monad.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Spec/Monad.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 27] Compiling Test.Hspec.Core.Hooks ( src/Test/Hspec/Core/Hooks.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Hooks.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[16 of 27] Compiling Test.Hspec.Core.Spec ( src/Test/Hspec/Core/Spec.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Spec.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[17 of 27] Compiling Test.Hspec.Core.QuickCheck ( src/Test/Hspec/Core/QuickCheck.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/QuickCheck.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[18 of 27] Compiling Test.Hspec.Core.Formatters.Monad ( src/Test/Hspec/Core/Formatters/Monad.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Formatters/Monad.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[19 of 27] Compiling Test.Hspec.Core.Formatters ( src/Test/Hspec/Core/Formatters.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Formatters.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[20 of 27] Compiling Test.Hspec.Core.Format ( src/Test/Hspec/Core/Format.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Format.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[21 of 27] Compiling Test.Hspec.Core.Runner.Eval ( src/Test/Hspec/Core/Runner/Eval.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Runner/Eval.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[22 of 27] Compiling Test.Hspec.Core.Formatters.Internal ( src/Test/Hspec/Core/Formatters/Internal.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Formatters/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[23 of 27] Compiling Test.Hspec.Core.Config.Util ( src/Test/Hspec/Core/Config/Util.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Config/Util.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[24 of 27] Compiling Test.Hspec.Core.Config.Options ( src/Test/Hspec/Core/Config/Options.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Config/Options.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[25 of 27] Compiling Test.Hspec.Core.FailureReport ( src/Test/Hspec/Core/FailureReport.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/FailureReport.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[26 of 27] Compiling Test.Hspec.Core.Config ( src/Test/Hspec/Core/Config.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Config.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[27 of 27] Compiling Test.Hspec.Core.Runner ( src/Test/Hspec/Core/Runner.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core/Runner.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for hspec-core-2.5.8..
+Running Haddock on library for hspec-core-2.5.8..
+Haddock coverage:
+ 100% ( 13 / 13) in 'Test.Hspec.Core.Util'
+ 100% ( 13 / 13) in 'Test.Hspec.Core.Hooks'
+  70% ( 30 / 43) in 'Test.Hspec.Core.Spec'
+  Missing documentation for:
+    Spec (src/Test/Hspec/Core/Spec/Monad.hs:25)
+    SpecWith (src/Test/Hspec/Core/Spec/Monad.hs:27)
+    mapSpecItem (src/Test/Hspec/Core/Spec/Monad.hs:55)
+    mapSpecItem_ (src/Test/Hspec/Core/Spec/Monad.hs:63)
+    modifyParams (src/Test/Hspec/Core/Spec/Monad.hs:66)
+    Params (src/Test/Hspec/Core/Example.hs:45)
+    defaultParams (src/Test/Hspec/Core/Example.hs:50)
+    Progress (src/Test/Hspec/Core/Example.hs:56)
+    ProgressCallback (src/Test/Hspec/Core/Example.hs:57)
+    ResultStatus (src/Test/Hspec/Core/Example.hs:68)
+    FailureReason (src/Test/Hspec/Core/Example.hs:74)
+    safeEvaluateExample (src/Test/Hspec/Core/Example.hs:90)
+    location (src/Test/Hspec/Core/Tree.hs:77)
+ 100% (  6 /  6) in 'Test.Hspec.Core.QuickCheck'
+  71% ( 25 / 35) in 'Test.Hspec.Core.Formatters'
+  Missing documentation for:
+    silent (src/Test/Hspec/Core/Formatters.hs:105)
+    specdoc (src/Test/Hspec/Core/Formatters.hs:118)
+    progress (src/Test/Hspec/Core/Formatters.hs:157)
+    failed_examples (src/Test/Hspec/Core/Formatters.hs:167)
+    Formatter (src/Test/Hspec/Core/Formatters/Monad.hs:51)
+    FailureReason (src/Test/Hspec/Core/Example.hs:74)
+    FormatM (src/Test/Hspec/Core/Formatters/Monad.hs:122)
+    FailureRecord (src/Test/Hspec/Core/Formatters/Monad.hs:81)
+    Seconds (src/Test/Hspec/Core/Clock.hs:14)
+    writeTransient (src/Test/Hspec/Core/Formatters/Monad.hs:208)
+  77% ( 10 / 13) in 'Test.Hspec.Core.Runner'
+  Missing documentation for:
+    Config (src/Test/Hspec/Core/Config/Options.hs:33)
+    ColorMode (src/Test/Hspec/Core/Config/Options.hs:110)
+    defaultConfig (src/Test/Hspec/Core/Config/Options.hs:60)
+Warning: Test.Hspec.Core.Formatters: could not find link destinations for:
+    Free FormatF
+Documentation created:
+dist/dist-sandbox-9929ec81/doc/html/hspec-core/index.html
+Installing library in /Users/anterooikkonen/ohjelmointi/cookbook/haskell/haq/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/hspec-core-2.5.8-3EpcXaumla64pYZXlcpBx4
+cabal: Leaving directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45050/hspec-core-2.5.8'

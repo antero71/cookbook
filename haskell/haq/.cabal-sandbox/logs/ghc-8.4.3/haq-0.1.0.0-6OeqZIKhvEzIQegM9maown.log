@@ -1,0 +1,6 @@
+cabal: Entering directory '.'
+Configuring haq-0.1.0.0...
+cabal.real: Encountered missing dependencies:
+haq -any
+
+cabal: Leaving directory '.'

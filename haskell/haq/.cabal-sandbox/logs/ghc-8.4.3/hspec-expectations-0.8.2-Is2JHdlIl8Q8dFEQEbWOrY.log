@@ -1,0 +1,39 @@
+cabal: Entering directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45050/hspec-expectations-0.8.2'
+Configuring hspec-expectations-0.8.2...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hspec-expectations-0.8.2..
+Building library for hspec-expectations-0.8.2..
+[1 of 4] Compiling Paths_hspec_expectations ( dist/dist-sandbox-9929ec81/build/autogen/Paths_hspec_expectations.hs, dist/dist-sandbox-9929ec81/build/Paths_hspec_expectations.o )
+[2 of 4] Compiling Test.Hspec.Expectations.Contrib ( src/Test/Hspec/Expectations/Contrib.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Expectations/Contrib.o )
+[3 of 4] Compiling Test.Hspec.Expectations.Matcher ( src/Test/Hspec/Expectations/Matcher.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Expectations/Matcher.o )
+[4 of 4] Compiling Test.Hspec.Expectations ( src/Test/Hspec/Expectations.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Expectations.o )
+[1 of 4] Compiling Paths_hspec_expectations ( dist/dist-sandbox-9929ec81/build/autogen/Paths_hspec_expectations.hs, dist/dist-sandbox-9929ec81/build/Paths_hspec_expectations.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 4] Compiling Test.Hspec.Expectations.Contrib ( src/Test/Hspec/Expectations/Contrib.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Expectations/Contrib.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 4] Compiling Test.Hspec.Expectations.Matcher ( src/Test/Hspec/Expectations/Matcher.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Expectations/Matcher.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 4] Compiling Test.Hspec.Expectations ( src/Test/Hspec/Expectations.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Expectations.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for hspec-expectations-0.8.2..
+Running Haddock on library for hspec-expectations-0.8.2..
+Haddock coverage:
+ 100% (  5 /  5) in 'Test.Hspec.Expectations.Contrib'
+  77% ( 23 / 30) in 'Test.Hspec.Expectations'
+  Missing documentation for:
+    Expectation (src/Test/Hspec/Expectations.hs:76)
+    expectationFailure (src/Test/Hspec/Expectations.hs:78)
+    anyException (src/Test/Hspec/Expectations.hs:182)
+    anyErrorCall (src/Test/Hspec/Expectations.hs:185)
+    anyIOException (src/Test/Hspec/Expectations.hs:195)
+    anyArithException (src/Test/Hspec/Expectations.hs:198)
+    errorCall (src/Test/Hspec/Expectations.hs:188)
+Documentation created:
+dist/dist-sandbox-9929ec81/doc/html/hspec-expectations/index.html
+Installing library in /Users/anterooikkonen/ohjelmointi/cookbook/haskell/haq/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/hspec-expectations-0.8.2-Is2JHdlIl8Q8dFEQEbWOrY
+cabal: Leaving directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45050/hspec-expectations-0.8.2'

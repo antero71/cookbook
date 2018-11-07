@@ -1,0 +1,19 @@
+cabal: Entering directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45051/setenv-0.1.1.3'
+Configuring setenv-0.1.1.3...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for setenv-0.1.1.3..
+Building library for setenv-0.1.1.3..
+[1 of 1] Compiling System.SetEnv    ( src/System/SetEnv.hs, dist/dist-sandbox-9929ec81/build/System/SetEnv.o )
+[1 of 1] Compiling System.SetEnv    ( src/System/SetEnv.hs, dist/dist-sandbox-9929ec81/build/System/SetEnv.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for setenv-0.1.1.3..
+Running Haddock on library for setenv-0.1.1.3..
+Haddock coverage:
+  67% (  2 /  3) in 'System.SetEnv'
+  Missing documentation for:
+    Module header
+Documentation created: dist/dist-sandbox-9929ec81/doc/html/setenv/index.html
+Installing library in /Users/anterooikkonen/ohjelmointi/cookbook/haskell/haq/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/setenv-0.1.1.3-H1xmIqlPy4yIDquO6eJhBl
+cabal: Leaving directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45051/setenv-0.1.1.3'

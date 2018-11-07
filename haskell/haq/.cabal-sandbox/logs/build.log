@@ -1,0 +1,161 @@
+
+package: haq-0.1.0.0
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: haq-0.1.0.0
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: QuickCheck-2.12.6.1
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+flags: templatehaskell
+dependencies: base-4.11.1.0 containers-0.5.11.0 deepseq-1.4.3.0
+              erf-2.0.0.0 random-1.1 template-haskell-2.13.0.0 tf-random-0.5
+              transformers-0.5.5.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: ansi-terminal-0.8.2
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+flags: -example
+dependencies: base-4.11.1.0 colour-2.3.4
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: clock-0.7.2
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+flags: -llvm
+dependencies: base-4.11.1.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: colour-2.3.4
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: erf-2.0.0.0
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: haq-0.1.0.0
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0 base-4.11.1.0 hspec-2.5.8
+install-outcome: ConfigureFailed
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: hspec-2.5.8
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: QuickCheck-2.12.6.1 base-4.11.1.0 hspec-core-2.5.8
+              hspec-discover-2.5.8 hspec-expectations-0.8.2
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: hspec-core-2.5.8
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: HUnit-1.6.0.0 QuickCheck-2.12.6.1 ansi-terminal-0.8.2
+              array-0.5.2.0 base-4.11.1.0 call-stack-0.1.0 clock-0.7.2
+              deepseq-1.4.3.0 directory-1.3.1.5 filepath-1.4.2
+              hspec-expectations-0.8.2 quickcheck-io-0.2.0 random-1.1
+              setenv-0.1.1.3 stm-2.5.0.0 tf-random-0.5 transformers-0.5.5.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: hspec-discover-2.5.8
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0 directory-1.3.1.5 filepath-1.4.2
+              base-4.11.1.0 directory-1.3.1.5 filepath-1.4.2
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: hspec-expectations-0.8.2
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: HUnit-1.6.0.0 base-4.11.1.0 call-stack-0.1.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: quickcheck-io-0.2.0
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: HUnit-1.6.0.0 QuickCheck-2.12.6.1 base-4.11.1.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: setenv-0.1.1.3
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0 unix-2.7.2.2
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: stm-2.5.0.0
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: array-0.5.2.0 base-4.11.1.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried

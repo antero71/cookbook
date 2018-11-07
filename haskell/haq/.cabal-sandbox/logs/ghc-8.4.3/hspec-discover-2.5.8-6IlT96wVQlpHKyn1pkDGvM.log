@@ -1,0 +1,58 @@
+cabal: Entering directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45053/hspec-discover-2.5.8'
+Configuring hspec-discover-2.5.8...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hspec-discover-2.5.8..
+Building library for hspec-discover-2.5.8..
+[1 of 4] Compiling Paths_hspec_discover ( dist/dist-sandbox-9929ec81/build/autogen/Paths_hspec_discover.hs, dist/dist-sandbox-9929ec81/build/Paths_hspec_discover.o )
+[2 of 4] Compiling Test.Hspec.Discover.Config ( src/Test/Hspec/Discover/Config.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Discover/Config.o )
+[3 of 4] Compiling Test.Hspec.Discover.Sort ( src/Test/Hspec/Discover/Sort.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Discover/Sort.o )
+[4 of 4] Compiling Test.Hspec.Discover.Run ( src/Test/Hspec/Discover/Run.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Discover/Run.o )
+[1 of 4] Compiling Paths_hspec_discover ( dist/dist-sandbox-9929ec81/build/autogen/Paths_hspec_discover.hs, dist/dist-sandbox-9929ec81/build/Paths_hspec_discover.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 4] Compiling Test.Hspec.Discover.Config ( src/Test/Hspec/Discover/Config.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Discover/Config.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 4] Compiling Test.Hspec.Discover.Sort ( src/Test/Hspec/Discover/Sort.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Discover/Sort.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 4] Compiling Test.Hspec.Discover.Run ( src/Test/Hspec/Discover/Run.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Discover/Run.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing executable 'hspec-discover' for hspec-discover-2.5.8..
+Building executable 'hspec-discover' for hspec-discover-2.5.8..
+[1 of 2] Compiling Main             ( driver/hspec-discover.hs, dist/dist-sandbox-9929ec81/build/hspec-discover/hspec-discover-tmp/Main.o )
+[2 of 2] Compiling Paths_hspec_discover ( dist/dist-sandbox-9929ec81/build/hspec-discover/autogen/Paths_hspec_discover.hs, dist/dist-sandbox-9929ec81/build/hspec-discover/hspec-discover-tmp/Paths_hspec_discover.o )
+Linking dist/dist-sandbox-9929ec81/build/hspec-discover/hspec-discover ...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hspec-discover-2.5.8..
+Running Haddock on library for hspec-discover-2.5.8..
+Haddock coverage:
+  20% (  1 /  5) in 'Test.Hspec.Discover.Config'
+  Missing documentation for:
+    Config (src/Test/Hspec/Discover/Config.hs:14)
+    defaultConfig (src/Test/Hspec/Discover/Config.hs:21)
+    parseConfig (src/Test/Hspec/Discover/Config.hs:35)
+    usage (src/Test/Hspec/Discover/Config.hs:32)
+   0% (  0 /  4) in 'Test.Hspec.Discover.Sort'
+  Missing documentation for:
+    Module header
+    sortNaturally (src/Test/Hspec/Discover/Sort.hs:12)
+    NaturalSortKey (src/Test/Hspec/Discover/Sort.hs:15)
+    naturalSortKey (src/Test/Hspec/Discover/Sort.hs:21)
+  40% (  4 / 10) in 'Test.Hspec.Discover.Run'
+  Missing documentation for:
+    run (src/Test/Hspec/Discover/Run.hs:43)
+    Spec (src/Test/Hspec/Discover/Run.hs:38)
+    fileToSpec (src/Test/Hspec/Discover/Run.hs:125)
+    findSpecs (src/Test/Hspec/Discover/Run.hs:120)
+    getFilesRecursive (src/Test/Hspec/Discover/Run.hs:144)
+    driverWithFormatter (src/Test/Hspec/Discover/Run.hs:89)
+Documentation created:
+dist/dist-sandbox-9929ec81/doc/html/hspec-discover/index.html
+Preprocessing executable 'hspec-discover' for hspec-discover-2.5.8..
+Installing library in /Users/anterooikkonen/ohjelmointi/cookbook/haskell/haq/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/hspec-discover-2.5.8-6IlT96wVQlpHKyn1pkDGvM
+Installing executable hspec-discover in /Users/anterooikkonen/ohjelmointi/cookbook/haskell/haq/.cabal-sandbox/bin
+cabal: Leaving directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45053/hspec-discover-2.5.8'

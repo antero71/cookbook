@@ -1,0 +1,23 @@
+cabal: Entering directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45052/erf-2.0.0.0'
+Warning: erf.cabal:7:1: The field "synopsis" is specified more than once at
+positions 7:1, 11:1
+Warning: erf.cabal:3:1: The field "license" is specified more than once at
+positions 3:1, 10:1
+Configuring erf-2.0.0.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for erf-2.0.0.0..
+Building library for erf-2.0.0.0..
+[1 of 1] Compiling Data.Number.Erf  ( src/Data/Number/Erf.hs, dist/dist-sandbox-9929ec81/build/Data/Number/Erf.o )
+[1 of 1] Compiling Data.Number.Erf  ( src/Data/Number/Erf.hs, dist/dist-sandbox-9929ec81/build/Data/Number/Erf.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for erf-2.0.0.0..
+Running Haddock on library for erf-2.0.0.0..
+Haddock coverage:
+  67% (  2 /  3) in 'Data.Number.Erf'
+  Missing documentation for:
+    Module header
+Documentation created: dist/dist-sandbox-9929ec81/doc/html/erf/index.html
+Installing library in /Users/anterooikkonen/ohjelmointi/cookbook/haskell/haq/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/erf-2.0.0.0-DoVcmknp6yaG2oYcmiezYS
+cabal: Leaving directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45052/erf-2.0.0.0'

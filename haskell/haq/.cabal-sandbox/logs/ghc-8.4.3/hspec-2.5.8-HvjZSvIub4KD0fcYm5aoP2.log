@@ -1,0 +1,85 @@
+cabal: Entering directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45050/hspec-2.5.8'
+Configuring hspec-2.5.8...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hspec-2.5.8..
+Building library for hspec-2.5.8..
+[1 of 7] Compiling Paths_hspec      ( dist/dist-sandbox-9929ec81/build/autogen/Paths_hspec.hs, dist/dist-sandbox-9929ec81/build/Paths_hspec.o )
+[2 of 7] Compiling Test.Hspec.Core  ( src/Test/Hspec/Core.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core.o )
+[3 of 7] Compiling Test.Hspec.Formatters ( src/Test/Hspec/Formatters.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Formatters.o )
+[4 of 7] Compiling Test.Hspec.Discover ( src/Test/Hspec/Discover.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Discover.o )
+[5 of 7] Compiling Test.Hspec.Runner ( src/Test/Hspec/Runner.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Runner.o )
+[6 of 7] Compiling Test.Hspec       ( src/Test/Hspec.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec.o )
+[7 of 7] Compiling Test.Hspec.QuickCheck ( src/Test/Hspec/QuickCheck.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/QuickCheck.o )
+[1 of 7] Compiling Paths_hspec      ( dist/dist-sandbox-9929ec81/build/autogen/Paths_hspec.hs, dist/dist-sandbox-9929ec81/build/Paths_hspec.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 7] Compiling Test.Hspec.Core  ( src/Test/Hspec/Core.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Core.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 7] Compiling Test.Hspec.Formatters ( src/Test/Hspec/Formatters.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Formatters.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 7] Compiling Test.Hspec.Discover ( src/Test/Hspec/Discover.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Discover.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[5 of 7] Compiling Test.Hspec.Runner ( src/Test/Hspec/Runner.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/Runner.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[6 of 7] Compiling Test.Hspec       ( src/Test/Hspec.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[7 of 7] Compiling Test.Hspec.QuickCheck ( src/Test/Hspec/QuickCheck.hs, dist/dist-sandbox-9929ec81/build/Test/Hspec/QuickCheck.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for hspec-2.5.8..
+Running Haddock on library for hspec-2.5.8..
+Haddock coverage:
+  62% ( 25 / 40) in 'Test.Hspec.Core'
+  Missing documentation for:
+    modifyParams
+    mapSpecItem_
+    mapSpecItem
+    Spec
+    SpecWith
+    location
+    safeEvaluateExample
+    defaultParams
+    Params
+    Progress
+    ProgressCallback
+    ResultStatus
+    FailureReason
+    describe (src/Test/Hspec/Core.hs:13)
+    it (src/Test/Hspec/Core.hs:17)
+  50% (  1 /  2) in 'Test.Hspec.Formatters'
+  Missing documentation for:
+    Module header
+  93% (134 /144) in 'Test.Hspec.Discover'
+  Missing documentation for:
+    Module header
+    Spec
+    IsFormatter (src/Test/Hspec/Discover.hs:20)
+    hspecWithFormatter (src/Test/Hspec/Discover.hs:29)
+    postProcessSpec (src/Test/Hspec/Discover.hs:34)
+    Real
+    Bool
+    Ordering
+    odd
+    even
+  50% (  1 /  2) in 'Test.Hspec.Runner'
+  Missing documentation for:
+    Module header
+  92% ( 37 / 40) in 'Test.Hspec'
+  Missing documentation for:
+    Spec
+    SpecWith
+    Arg
+  89% (  8 /  9) in 'Test.Hspec.QuickCheck'
+  Missing documentation for:
+    Module header
+Warning: Test.Hspec.Discover: could not find link destinations for:
+    Shrunk Rose P FormatF HandleType DateFormatSpec Padding
+Documentation created: dist/dist-sandbox-9929ec81/doc/html/hspec/index.html
+Installing library in /Users/anterooikkonen/ohjelmointi/cookbook/haskell/haq/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/hspec-2.5.8-HvjZSvIub4KD0fcYm5aoP2
+cabal: Leaving directory '/var/folders/yf/c03w9sr51g744rvrgfvmwc4c0000gn/T/cabal-tmp-45050/hspec-2.5.8'
