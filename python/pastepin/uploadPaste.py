@@ -1,5 +1,6 @@
 # This is a simple pastebin paste program
 #
+# It prints url where you can find newly created paste
 #
 api_paste_code = '<html><body><b>This is a test</b></body></html>'
 api_paste_name = 'my title'
