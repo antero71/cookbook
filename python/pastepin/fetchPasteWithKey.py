@@ -3,7 +3,18 @@ import requests
 import boto3
 import json
 
+def removeEmptyItems(data):
+    """This method removes a empty items from a dictionary"""
+    removeKeys = []
 
+    for key, value in data.items():
+        if value == "":
+            removeKeys.append(key)
+
+    for key in removeKeys:
+        data.pop(key)
+
+    return data
 
 
 
@@ -24,25 +35,18 @@ r = requests.post(url_metadata)
 print('Post metadata')
 print(r.text)
 
-session = boto3.Session(profile_name='pastebin_caller',region_name='eu-west-1')
-
-
-
 data = json.loads(r.text)
 
-removeKeys=[]
 
-for key, value in data[0].items():
-    if value == "":
-        removeKeys.append(key)
+data = removeEmptyItems(data[0])
 
-for key in removeKeys:
-    data[0].pop(key)
+data['raw_data'] = raw_data.text
 
-data[0]['raw_data'] = raw_data.text
-
-print(data[0])
+print(data)
 
 import database.databaseOperations as oper
 
-oper.storeData(data[0])
+oper.storeData(data)
+
+
+
