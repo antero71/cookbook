@@ -23,30 +23,33 @@ config.read('.env')
 
 api_dev_key = config['KEYS']['api_dev_key']
 api_user_key = config['KEYS']['api_user_key']
-api_paste_key='PASTE_KEY'
-
-url_raw = 'https://scrape.pastebin.com/api_scrape_item.php?i='+api_paste_key
-
-raw_data = requests.post(url_raw)
-
-url_metadata = 'https://scrape.pastebin.com/api_scrape_item_meta.php?i='+api_paste_key
-
-r = requests.post(url_metadata)
-print('Post metadata')
-print(r.text)
-
-data = json.loads(r.text)
+#api_paste_key='PASTE_KEY'
 
 
-data = removeEmptyItems(data[0])
+def fetchAndStorePastes(api_paste_key):
 
-data['raw_data'] = raw_data.text
+    url_raw = 'https://scrape.pastebin.com/api_scrape_item.php?i='+api_paste_key
 
-print(data)
+    raw_data = requests.post(url_raw)
 
-import database.databaseOperations as oper
+    url_metadata = 'https://scrape.pastebin.com/api_scrape_item_meta.php?i='+api_paste_key
 
-oper.storeData(data)
+    r = requests.post(url_metadata)
+    print('Post metadata')
+    print(r.text)
+
+    data = json.loads(r.text)
+
+
+    data = removeEmptyItems(data[0])
+
+    data['raw_data'] = raw_data.text
+
+    print(data)
+
+    import database.databaseOperations as oper
+
+    oper.storeData(data)
 
 
 

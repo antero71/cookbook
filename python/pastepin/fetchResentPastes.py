@@ -2,6 +2,7 @@
 import configparser
 import requests
 import json
+import fetchPasteWithKey as f
 
 config = configparser.ConfigParser()
 config.read('.env')
@@ -21,5 +22,13 @@ body={'api_dev_key':api_dev_key,
 
 r = requests.post(url,data=body)
 print(r.text)
+
+ids = json.loads(r.text)
+
+for paste in ids:
+    f.fetchAndStorePastes(paste.get('key'))
+
+
+
 
 

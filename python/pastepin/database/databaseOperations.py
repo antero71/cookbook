@@ -10,6 +10,7 @@ def storeData(jsonDoc):
 
     table = dynamodb.Table('pastebin')
 
-    table.put_item(
+    result = table.put_item(
         Item=jsonDoc
     )
+    print(result)
