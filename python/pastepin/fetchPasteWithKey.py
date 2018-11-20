@@ -2,6 +2,7 @@ import configparser
 import requests
 import boto3
 import json
+import time
 
 def removeEmptyItems(data):
     """This method removes a empty items from a dictionary"""
@@ -26,7 +27,9 @@ api_user_key = config['KEYS']['api_user_key']
 #api_paste_key='PASTE_KEY'
 
 
-def fetchAndStorePastes(api_paste_key):
+def fetchAndStorePastes(api_paste_key,sleep):
+
+    time.sleep(sleep)
 
     url_raw = 'https://scrape.pastebin.com/api_scrape_item.php?i='+api_paste_key
 

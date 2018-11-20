@@ -3,6 +3,7 @@ import configparser
 import requests
 import json
 import fetchPasteWithKey as f
+from botocore.exceptions import ClientError
 
 config = configparser.ConfigParser()
 config.read('.env')
@@ -10,7 +11,7 @@ config.read('.env')
 api_dev_key = config['KEYS']['api_dev_key']
 api_user_key = config['KEYS']['api_user_key']
 
-limit='10'
+limit='100'
 #lang='yaml'
 
 #url='https://scrape.pastebin.com/api_scraping.php?limit='+limit+'&lang='+lang
@@ -25,9 +26,14 @@ print(r.text)
 
 ids = json.loads(r.text)
 
-for paste in ids:
-    f.fetchAndStorePastes(paste.get('key'))
+sleep = 1.2
 
+for paste in ids:
+    try:
+        f.fetchAndStorePastes(paste.get('key'),sleep)
+    except ClientError:
+        print(ClientError.response)
+        continue
 
 
 
