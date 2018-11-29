@@ -43,8 +43,9 @@ def fetchAndStorePastes(api_paste_key,sleep):
 
     data = json.loads(r.text)
 
-
     data = removeEmptyItems(data[0])
+
+
 
     data['raw_data'] = raw_data.text
 

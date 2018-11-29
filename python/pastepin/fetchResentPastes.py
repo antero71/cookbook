@@ -11,7 +11,7 @@ config.read('.env')
 api_dev_key = config['KEYS']['api_dev_key']
 api_user_key = config['KEYS']['api_user_key']
 
-limit='100'
+limit='1'
 #lang='yaml'
 
 #url='https://scrape.pastebin.com/api_scraping.php?limit='+limit+'&lang='+lang
