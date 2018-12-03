@@ -24,3 +24,4 @@ cabal.project.local~
 .idea
 python/pastepin/.env
 python/pastepin/.idea
+*.pyc
