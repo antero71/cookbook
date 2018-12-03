@@ -3,6 +3,8 @@ import requests
 import boto3
 import json
 import time
+import database.databaseOperations as oper
+from s3.storeFileToS3 import storeDataToS3
 
 def removeEmptyItems(data):
     """This method removes a empty items from a dictionary"""
@@ -45,15 +47,16 @@ def fetchAndStorePastes(api_paste_key,sleep):
 
     data = removeEmptyItems(data[0])
 
+    name=data.get("key")
+    name+='.txt'
 
-
-    data['raw_data'] = raw_data.text
+    storeDataToS3(name,raw_data.text)
 
     print(data)
 
-    import database.databaseOperations as oper
-
     oper.storeData(data)
+
+
 
 
 

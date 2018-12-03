@@ -1,16 +1,11 @@
-import boto3
+from s3.s3Session import s3Session
+
+def storeDataToS3(name,data):
+    # Let's use Amazon S3
+    s3session = s3Session()
+    #session = s3session.getSession()
+    s3 = s3session.getS3()
+
+    s3.Bucket('antero-s3-kori-1').put_object(Key='pastebin/'+name, Body=data)
 
 
-session = boto3.Session(profile_name='pastebin_caller',region_name='eu-west-1')
-
-# Let's use Amazon S3
-s3 = session.resource('s3')
-
-# Print out bucket names
-for bucket in s3.buckets.all():
-    print(bucket.name)
-
-# Upload a new file
-data = open('test.jpg', 'rb')
-s3.Bucket('antero-s3-kori-1').put_object(Key='test.jpg', Body=data)
-data.close()
