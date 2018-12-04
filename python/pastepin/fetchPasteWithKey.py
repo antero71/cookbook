@@ -29,7 +29,8 @@ api_user_key = config['KEYS']['api_user_key']
 #api_paste_key='PASTE_KEY'
 
 
-def fetchAndStorePastes(api_paste_key,sleep):
+def fetchAndStorePastes(paste,sleep):
+    api_paste_key = paste.get("key")
 
     time.sleep(sleep)
 
@@ -37,15 +38,16 @@ def fetchAndStorePastes(api_paste_key,sleep):
 
     raw_data = requests.post(url_raw)
 
-    url_metadata = 'https://scrape.pastebin.com/api_scrape_item_meta.php?i='+api_paste_key
+    #url_metadata = 'https://scrape.pastebin.com/api_scrape_item_meta.php?i='+api_paste_key
 
-    r = requests.post(url_metadata)
-    print('Post metadata')
-    print(r.text)
+    #r = requests.post(url_metadata)
+    #print('Post metadata')
+    #print(r.text)
 
-    data = json.loads(r.text)
+    ##data = json.loads(r.text)
 
-    data = removeEmptyItems(data[0])
+    ##data = removeEmptyItems(data[0])
+    data = removeEmptyItems(paste)
 
     name=data.get("key")
     name+='.txt'
