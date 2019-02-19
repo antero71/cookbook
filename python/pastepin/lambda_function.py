@@ -31,7 +31,7 @@ def getData(limit):
     r = requests.post(url,data=body)
     return json.loads(r.text)
 
-def lambda_handler(event, context):
+def main():
 
     sleep = 1.2
     pastes = getData(limit)
@@ -44,10 +44,8 @@ def lambda_handler(event, context):
             continue
 
 
-    return {
-        'statusCode': 200,
-        'body': json.dumps('Pastebin search success!')
-    }
+if __name__ == "__main__":
+    main()
 
 
 
