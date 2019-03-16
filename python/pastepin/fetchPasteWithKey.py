@@ -1,7 +1,5 @@
 import configparser
 import requests
-import boto3
-import json
 import time
 import database.databaseOperations as oper
 from s3.storeFileToS3 import storeDataToS3
