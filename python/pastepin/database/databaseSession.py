@@ -9,6 +9,7 @@ class DynamoDbSession():
         self.dynamodb = self.session.resource('dynamodb')
 
     def getSession(self):
+
         """This function returns a session for initialized aws region and user profile"""
         return self.session
 
