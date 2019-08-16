@@ -23,7 +23,7 @@ cabal.project.local~
 .env
 .idea
 python/pastepin/.env
-python/pastepin/.idea
+**/.idea
 **/*.pyc
 python/deploy_pastebin.sh
 python/pastepin/backports/
@@ -42,4 +42,4 @@ python/pastepin/urllib3-1.24.1.dist-info/
 python/pastepin/urllib3/
 **/*.zip
 rust/hello_world/main
-rust/hello_cargo/target
+**/target
