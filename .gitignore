@@ -42,3 +42,4 @@ python/pastepin/urllib3-1.24.1.dist-info/
 python/pastepin/urllib3/
 **/*.zip
 rust/hello_world/main
+rust/hello_cargo/target
