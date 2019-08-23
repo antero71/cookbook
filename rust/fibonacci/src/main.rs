@@ -1,26 +1,31 @@
 use std::io;
 
 fn main() {
+        let mut counter = 0u8;
+        println!("Give a positive integer, max 187");
         loop {
-            println!("Give a positive integer, max 187");
-            println!("If you want exit, press q");
-
+        
+            if counter == 0 {
+                println!("If you want exit, press q");
+            }
+            counter+=1;
             let mut number = String::new();
-
+ 
             io::stdin().read_line(&mut number)
                 .expect("Failed to read line");
-
+ 
             if number.trim().eq("q") {
                 break;
             }
-
+ 
             let number: u32 = number.trim().parse()
                 .expect("Please type a number!");
-
+ 
             if number > 187 {
                 println!("Give number between 0 - 187");
+                continue;
             }
-
+ 
             println!("The {} th Fibonacci number are {}",number,fib(number));
     }
 }
