@@ -44,3 +44,4 @@ python/pastepin/urllib3/
 **/*.zip
 rust/hello_world/main
 **/target
+**/.vscode
